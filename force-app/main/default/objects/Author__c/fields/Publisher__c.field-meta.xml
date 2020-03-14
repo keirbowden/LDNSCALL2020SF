@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Publisher__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>The publisher that the author is currently contracted to.</description>
+    <externalId>false</externalId>
+    <label>Publisher</label>
+    <referenceTo>Publisher__c</referenceTo>
+    <relationshipLabel>Authors</relationshipLabel>
+    <relationshipName>Authors</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

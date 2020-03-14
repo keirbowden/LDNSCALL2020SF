@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Genres__c</fullName>
+    <description>The genres that the author has written books for.</description>
+    <externalId>false</externalId>
+    <label>Genres</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetName>Genre</valueSetName>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

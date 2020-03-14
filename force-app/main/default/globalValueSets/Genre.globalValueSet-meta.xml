@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Fantasy</fullName>
+        <default>false</default>
+        <label>Fantasy</label>
+    </customValue>
+    <customValue>
+        <fullName>Science fiction</fullName>
+        <default>false</default>
+        <label>Science fiction</label>
+    </customValue>
+    <customValue>
+        <fullName>Horror</fullName>
+        <default>false</default>
+        <label>Horror</label>
+    </customValue>
+    <customValue>
+        <fullName>Western</fullName>
+        <default>false</default>
+        <label>Western</label>
+    </customValue>
+    <customValue>
+        <fullName>Romance</fullName>
+        <default>false</default>
+        <label>Romance</label>
+    </customValue>
+    <customValue>
+        <fullName>Thriller</fullName>
+        <default>false</default>
+        <label>Thriller</label>
+    </customValue>
+    <customValue>
+        <fullName>Mystery</fullName>
+        <default>false</default>
+        <label>Mystery</label>
+    </customValue>
+    <customValue>
+        <fullName>Detective</fullName>
+        <default>false</default>
+        <label>Detective</label>
+    </customValue>
+    <description>A liiterary genre.</description>
+    <masterLabel>Genre</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>
