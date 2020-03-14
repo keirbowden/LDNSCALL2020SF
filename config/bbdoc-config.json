@@ -1,0 +1,22 @@
+{
+    "objects": {
+        "name": "objects",
+        "description": "Custom Objects", 
+        "subdirectory": "objects",
+        "suffix":"object",
+        "groups": {
+            "events": {
+                "name":"events", 
+                "title":"Event Objects",
+                "description": "Objects associated with events",
+                "objects": "Book_Signing__c, Author_Reading__c"
+            }
+            ,
+            "other": {
+                "name":"other", 
+                "title":"Uncategorised Objects",
+                "description": "Objects that do not fall into any other category"
+            }
+        }
+    }
+}
