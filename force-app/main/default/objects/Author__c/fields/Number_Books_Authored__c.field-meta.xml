@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Number_Books_Authored__c</fullName>
+    <description>The number of books that this author has written.</description>
+    <externalId>false</externalId>
+    <label>Number Books Authored</label>
+    <summaryForeignKey>Book__c.Author__c</summaryForeignKey>
+    <summaryOperation>count</summaryOperation>
+    <trackTrending>false</trackTrending>
+    <type>Summary</type>
+</CustomField>

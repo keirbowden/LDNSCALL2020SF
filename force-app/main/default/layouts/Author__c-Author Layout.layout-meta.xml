@@ -18,6 +18,10 @@
                 <behavior>Edit</behavior>
                 <field>Publisher__c</field>
             </layoutItems>
+            <layoutItems>
+                <behavior>Readonly</behavior>
+                <field>Number_Books_Authored__c</field>
+            </layoutItems>
         </layoutColumns>
         <layoutColumns>
             <layoutItems>
@@ -58,6 +62,10 @@
     <relatedLists>
         <fields>NAME</fields>
         <relatedList>Book_Signing__c.Author__c</relatedList>
+    </relatedLists>
+    <relatedLists>
+        <fields>NAME</fields>
+        <relatedList>Book__c.Author__c</relatedList>
     </relatedLists>
     <showEmailCheckbox>false</showEmailCheckbox>
     <showHighlightsPanel>false</showHighlightsPanel>
