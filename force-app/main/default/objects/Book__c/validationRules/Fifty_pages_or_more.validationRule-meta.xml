@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Fifty_pages_or_more</fullName>
+    <active>false</active>
+    <description>The book must have 50 pages or more, otherwise it&#39;s a pamphlet</description>
+    <errorConditionFormula>Pages__c &lt; 50</errorConditionFormula>
+    <errorDisplayField>Pages__c</errorDisplayField>
+    <errorMessage>A book must have at least 50 pages.</errorMessage>
+</ValidationRule>
