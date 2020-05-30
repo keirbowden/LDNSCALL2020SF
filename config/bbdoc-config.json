@@ -3,6 +3,7 @@
         "name": "objects",
         "description": "Custom Objects", 
         "subdirectory": "objects",
+        "image": "images/objects.png",
         "suffix":"object",
         "groups": {
             "events": {
@@ -16,6 +17,20 @@
                 "name":"other", 
                 "title":"Uncategorised Objects",
                 "description": "Objects that do not fall into any other category"
+            }
+        }
+    },
+    "triggers": {
+        "name": "triggers",
+        "description": "Triggers providing automation", 
+        "image": "images/triggers.png",
+        "subdirectory": "triggers",
+        "suffix":"trigger",
+        "groups": {
+            "other": {
+                "name":"other", 
+                "title":"All Triggers",
+                "description": "All triggers defined in the example repo"
             }
         }
     }
