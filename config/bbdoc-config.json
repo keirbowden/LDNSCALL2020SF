@@ -33,5 +33,19 @@
                 "description": "All triggers defined in the example repo"
             }
         }
+    },
+    "auraenabled": {
+        "name": "auraenabled",
+        "description": "AuraEnabled Class Access", 
+        "subdirectory": ".",
+        "image": "images/auraenabled.png",
+        "suffix":"object",
+        "groups": {
+            "other": {
+                "name":"other", 
+                "title":"AuraEnabled Components",
+                "description": "All components with Apex controllers"
+            }
+        }
     }
 }

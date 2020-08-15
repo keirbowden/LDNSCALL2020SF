@@ -1,0 +1,13 @@
+<template>
+    <div class="slds-text-heading_medium">All Books and Authors</div>
+    <template if:true={books}>
+        <template for:each={books} for:item="book">
+            <div key={book.Id}>{book.Name}</div>
+        </template>
+    </template>
+    <template if:true={authors}>
+        <template for:each={authors} for:item="author">
+            <div key={author.Id}>{author.Name}</div>
+        </template>
+    </template>
+</template>
