@@ -1,4 +1,6 @@
 {
+    "title": "Instance Overview",
+    "subtitle": "From the metadata source",
     "objects": {
         "name": "objects",
         "description": "Custom Objects", 
