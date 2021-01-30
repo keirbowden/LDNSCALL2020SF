@@ -4,6 +4,8 @@
     "objects": {
         "name": "objects",
         "description": "Custom Objects", 
+        "backgroundColor" : "#ff8b00",
+        "color": "#ffffff",
         "subdirectory": "objects",
         "image": "images/objects.png",
         "suffix":"object",
@@ -11,6 +13,8 @@
             "events": {
                 "name":"events", 
                 "title":"Event Objects",
+                "backgroundColor" : "#c9a9d6",
+                "color": "#01010c",
                 "description": "Objects associated with events",
                 "objects": "Book_Signing__c, Author_Reading__c"
             }
