@@ -22,6 +22,10 @@
                 <behavior>Readonly</behavior>
                 <field>Number_Books_Authored__c</field>
             </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>Email_Address__c</field>
+            </layoutItems>
         </layoutColumns>
         <layoutColumns>
             <layoutItems>

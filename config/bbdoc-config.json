@@ -16,12 +16,14 @@
                 "title":"Event Objects",
                 "backgroundColor" : "#c9a9d6",
                 "color": "#01010c",
+                "columns":["Name", "Label", "Type", "Description", "Info", "Page Layouts", "Encrypted"],
                 "description": "Objects associated with events",
                 "objects": "Book_Signing__c, Author_Reading__c"
             }
             ,
             "other": {
                 "name":"other", 
+                "columns":["Name", "Label", "Type", "Description", "Info", "Page Layouts", "Security", "Compliance", "In Use", "Encrypted"],
                 "title":"Uncategorised Objects",
                 "description": "Objects that do not fall into any other category"
             }
