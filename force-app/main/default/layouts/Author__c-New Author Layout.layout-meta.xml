@@ -26,6 +26,10 @@
                 <behavior>Edit</behavior>
                 <field>Email_Address__c</field>
             </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>Planned_Publish_Date__c</field>
+            </layoutItems>
         </layoutColumns>
         <layoutColumns>
             <layoutItems>

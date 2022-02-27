@@ -56,5 +56,25 @@
                 "description": "All components with Apex controllers"
             }
         }
+    },
+    "flows": {
+        "name": "flows",
+        "description": "Flows providing automation", 
+        "image": "images/flows.jpg",
+        "subdirectory": "flows",
+        "suffix":"flow",
+        "groups": {
+            "other": {
+                "name":"other", 
+                "title":"All Flows",
+                "description": "All flows defined in the example repo"
+            }
+        }
+    },
+    "orderofexecution": {
+        "name": "orderofexecution",
+        "description": "Order of Execution", 
+        "subdirectory": ".",
+        "image": "images/order.png"
     }
 }

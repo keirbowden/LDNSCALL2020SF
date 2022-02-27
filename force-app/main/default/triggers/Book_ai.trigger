@@ -1,3 +1,3 @@
-trigger Book_ai on Book__c (before insert) {
+trigger Book_ai on Book__c (after insert) {
 
 }
